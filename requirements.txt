@@ -4,7 +4,8 @@ numpy
 scipy
 Matplotlib
 seaborn
-Scikit-learn
+scikit-learn==1.6.1
 Streamlit
 Joblib
+
 
