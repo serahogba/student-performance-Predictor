@@ -6,7 +6,7 @@ import joblib
 
 # ----------------------------------------------------------------------------------------------
 # Load trained model
-model = joblib.load("../../../models/clf_pipeline_v1.joblib")
+model = joblib.load("../models/clf_pipeline_v1.joblib")
 # ----------------------------------------------------------------------------------------------
 # Streamlit App Interface for Student Performance Prediction
 st.title("🎓 Student Performance Predictor")
@@ -43,3 +43,4 @@ if st.button("Predict Performance"):
     prediction = model.predict(input_data)[0]  # 0 = Fail, 1 = Pass
     result = "  ✔ PASS" if prediction == 1 else "  ✖ FAIL"
     st.success(f"Predicted Outcome: {result}")  # Display result
+
