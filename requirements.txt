@@ -1,4 +1,5 @@
 Pandas
+gunicorn
 numpy
 scipy
 Matplotlib
@@ -6,3 +7,4 @@ seaborn
 Scikit-learn
 Streamlit
 Joblib
+
