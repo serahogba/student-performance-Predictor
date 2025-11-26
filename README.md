@@ -65,4 +65,4 @@ The trained classification pipeline (`clf_pipeline_v1.joblib`) was deployed usin
 pip install -r requirements.txt
 
 # Launch the app
-streamlit run 4.10_app.py
+streamlit run 4.10_app_predictor.py
