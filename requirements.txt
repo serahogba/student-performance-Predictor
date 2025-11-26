@@ -1,0 +1,9 @@
+# This file lists all necessary Python packages
+Pandas
+numpy
+scipy
+Matplotlib
+seaborn
+Scikit-learn
+Streamlit
+Joblib

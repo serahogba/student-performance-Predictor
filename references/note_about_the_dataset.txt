@@ -1,0 +1,78 @@
+About the Dataset
+
+Dataset used for developing and testing a predictive model of student academic performance using machine learning.
+Key questions explored:
+
+Which factors most influence students’ final academic performance?
+
+Can machine learning reliably predict Pass/Fail outcomes based on these factors?
+
+How accurately can the model forecast continuous exam scores?
+
+How can such predictions support data-driven interventions in education?
+
+Final dataset version includes socio-demographic and academic attributes for each student record.
+ Data cleaning and encoding scripts finalized (no missing values detected).
+
+This dataset provides insights into academic performance drivers among students by analysing behavioural, demographic, and socio-economic attributes.
+
+________________________________________
+
+Dataset Overview
+
+This dataset was compiled from a publicly available Kaggle student performance dataset and adapted for research purposes.
+Each record represents a unique student, including personal, academic, and behavioural indicators.
+
+Total Records: 708
+Variables: 10 core features + derived attributes for analysis
+
+________________________________________
+
+Key Features
+Demographic & Socio-Economic Details
+
+Student_ID – Unique identifier for each student record
+
+Gender – Student’s gender (Male/Female)
+
+Parental_Education_Level – Highest education attained by either parent (High School, Bachelors, Masters, PhD)
+
+Internet_Access_at_Home – Indicates whether the student has reliable home internet access (Yes/No)
+
+Academic & Behavioural Features
+
+Study_Hours_per_Week – Average weekly study hours
+
+Attendance_Rate (%) – Percentage of classes attended
+
+Past_Exam_Scores – Average score from previous examinations
+
+Extracurricular_Activities – Participation in school clubs, sports, or community activities (Yes/No)
+
+Final_Exam_Score – Numerical score (0–100) in the final examination
+
+Pass_Fail – Categorical label derived from the final exam score:
+
+Pass → Final_Exam_Score ≥ 60
+
+Fail → Final_Exam_Score < 60
+________________________________________
+
+Analytical Focus
+
+The dataset was utilized to:
+
+Build supervised machine learning models (Random Forest).
+
+Conduct Exploratory Data Analysis (EDA) - histograms, boxplots, and correlation heatmaps.
+
+Evaluate model reliability using F1-score, RMSE, and R² metrics.
+
+Generate feature importance rankings and deploy a prediction app prototype using Streamlit.
+________________________________________
+
+Licensing and Ethical Considerations
+
+This dataset is open-access under Kaggle’s data-sharing terms.
+All records are de-identified and used solely for academic research.
+The study ensures compliance with ethical data use principles and educational privacy standards.
